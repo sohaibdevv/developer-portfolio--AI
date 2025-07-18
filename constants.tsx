@@ -108,13 +108,13 @@ export const PROJECTS: Project[] = [
 export const CONTACT_INFO = [
     {
         name: "Email",
-        value: "contact@johndoe.com",
+        value: "sohaibmalikccm@gmail.com",
         icon: <EmailIcon />,
-        link: "mailto:contact@johndoe.com"
+        link: "mailto:sohaibmalikccm@gmail.com"
     },
     {
         name: "WhatsApp",
-        value: "+1 234 567 890",
+        value: "+92 0000000000",
         icon: <PhoneIcon />,
         link: "https://wa.me/1234567890"
     }
