@@ -1,5 +1,6 @@
 
 import React from 'react';
+import AboutImage from './assets/about.png';
 import SectionTitle from './ui/SectionTitle';
 
 const About: React.FC = () => {
@@ -16,7 +17,7 @@ const About: React.FC = () => {
         <div className="grid md:grid-cols-5 gap-12 items-center">
           <div className="md:col-span-2 w-full h-80 rounded-3xl bg-gradient-to-tr from-accent-blue to-accent-purple p-1">
              <img 
-                src="https://picsum.photos/seed/about/400/500" 
+                src={AboutImage} 
                 alt="About me"
                 className="w-full h-full object-cover rounded-3xl"
              />
