@@ -1,5 +1,4 @@
-
-import React from 'react';
+// import React from 'react';
 import type { NavLink, SocialLink, Skill, Project } from './types';
 
 // SVG Icons
@@ -11,9 +10,6 @@ const LinkedinIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
 );
 
-const TwitterIcon = () => (
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
-);
 
 const EmailIcon = () => (
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
@@ -32,9 +28,9 @@ export const NAV_LINKS: NavLink[] = [
 ];
 
 export const SOCIAL_LINKS: SocialLink[] = [
-  { name: 'Github', icon: <GithubIcon />, url: 'https://github.com' },
-  { name: 'LinkedIn', icon: <LinkedinIcon />, url: 'https://linkedin.com' },
-  { name: 'Twitter', icon: <TwitterIcon />, url: 'https://twitter.com' },
+  { name: 'Github', icon: <GithubIcon />, url: 'https://github.com/sohaibdevv' },
+  { name: 'LinkedIn', icon: <LinkedinIcon />, url: 'https://linkedin.com/sohaib-m-malik' },
+  { name: 'Email', icon: <EmailIcon />, url: 'sohaibmalikccm@gmail.com' },
 ];
 
 export const SKILLS: Skill[] = [
@@ -44,10 +40,10 @@ export const SKILLS: Skill[] = [
   { name: 'TypeScript', icon: <img src="https://img.icons8.com/color/48/000000/typescript.png" alt="TypeScript" className="w-12 h-12"/> },
   { name: 'React', icon: <img src="https://img.icons8.com/color/48/000000/react-native.png" alt="React" className="w-12 h-12"/> },
   { name: 'Next.js', icon: <img src="https://img.icons8.com/color/48/000000/nextjs.png" alt="Next.js" className="w-12 h-12" style={{filter: 'invert(1)'}}/> },
-  { name: 'Node.js', icon: <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js" className="w-12 h-12"/> },
+  // { name: 'Node.js', icon: <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js" className="w-12 h-12"/> },
   { name: 'Tailwind CSS', icon: <img src="https://img.icons8.com/color/48/000000/tailwindcss.png" alt="Tailwind CSS" className="w-12 h-12"/> },
-  { name: 'MongoDB', icon: <img src="https://img.icons8.com/color/48/000000/mongodb.png" alt="MongoDB" className="w-12 h-12"/> },
-  { name: 'PostgreSQL', icon: <img src="https://img.icons8.com/color/48/000000/postgreesql.png" alt="PostgreSQL" className="w-12 h-12"/> },
+  // { name: 'MongoDB', icon: <img src="https://img.icons8.com/color/48/000000/mongodb.png" alt="MongoDB" className="w-12 h-12"/> },
+  // { name: 'PostgreSQL', icon: <img src="https://img.icons8.com/color/48/000000/postgreesql.png" alt="PostgreSQL" className="w-12 h-12"/> },
   { name: 'Docker', icon: <img src="https://img.icons8.com/color/48/000000/docker.png" alt="Docker" className="w-12 h-12"/> },
   { name: 'Git', icon: <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git" className="w-12 h-12"/> },
 ];

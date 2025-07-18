@@ -4,9 +4,9 @@ import SectionTitle from './ui/SectionTitle';
 
 const About: React.FC = () => {
   const stats = [
-    { value: '3+', label: 'Years Experience' },
-    { value: '20+', label: 'Completed Projects' },
-    { value: '5+', label: 'Companies Worked' },
+    { value: '+', label: 'Years Experience' },
+    { value: '+', label: 'Completed Projects' },
+    { value: '+', label: 'Companies Worked' },
   ];
 
   return (
@@ -31,7 +31,7 @@ const About: React.FC = () => {
               ))}
             </div>
             <p className="text-gray-400 mb-8 leading-relaxed">
-              I am a passionate Full Stack Developer with over 3 years of hands-on experience in building and maintaining web applications. My expertise lies in the MERN stack (MongoDB, Express.js, React, Node.js), and I am proficient in creating responsive, user-friendly, and efficient digital solutions. I thrive on solving complex problems and am always eager to learn new technologies to enhance my skill set.
+              Sohaib Malik | Based in Karachi, Pakistan
             </p>
             <a 
               href="#contact"

@@ -1,4 +1,5 @@
 import React from "react";
+import Sohaib from "./assets/sohaib.png";
 import { SOCIAL_LINKS } from "../constants";
 
 const Hero: React.FC = () => {
@@ -18,9 +19,7 @@ const Hero: React.FC = () => {
               Full Stack Developer
             </h2>
             <p className="text-gray-400 mb-8 max-w-lg mx-auto md:mx-0">
-              I design and develop services for customers of all sizes,
-              specializing in creating stylish, modern websites, web services
-              and online stores.
+              Based in Karachi Pakistan.
             </p>
             <div className="flex justify-center md:justify-start items-center gap-4 mb-8">
               {SOCIAL_LINKS.map((link) => (
@@ -48,7 +47,7 @@ const Hero: React.FC = () => {
           <div className="relative mx-auto w-80 h-80 lg:w-96 lg:h-96">
             <div className="absolute inset-0 bg-gradient-to-r from-accent-blue to-accent-purple rounded-full blur-2xl opacity-50"></div>
             <img
-              src="https://picsum.photos/seed/profile/400/400"
+              src={Sohaib}
               alt="Sohaib Malik"
               className="relative w-full h-full object-cover rounded-full border-4 border-secondary-dark shadow-xl"
             />
